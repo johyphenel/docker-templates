@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="1">
+    <Name>signal-app</Name>
+	<Beta>false</Beta>
+    <Category>Other</Category>
+    <Repository></Repository>
+    <Registry>https://github.com/johyphenel/docker-templates/pkgs/container/arch-emby</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <ExtraParams>--restart=always</ExtraParams>
+    <Shell>bash</Shell>
+    <GitHub>https://github.com/johyphenel/docker-signal-app</GitHub>
+    <ReadMe>https://github.com/johyphenel/docker-signal-app/readme.md</ReadMe>
+    <Support>https://github.com/johyphenel/docker-signal-app/issues</Support>
+    <Project>https://signal.org/</Project>
+    <Overview>Signal web app.</Overview>
+    <WebUI>http://[IP]:[PORT:8511]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/johyphenel/docker-templates/main/templates/signal.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/johyphenel/docker-templates/main/images/signal-icon.png</Icon>
+    <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
+    <DonateLink></DonateLink>
+    <DonateImg></DonateImg>
+    <Date>1970-01-01</Date>
+    <Changes></Changes>
+    <Config Name="Port: Web Interface" Target="8511" Default="8511" Mode="tcp" Description="This is the Web UI port for the application." Type="Port" Display="always" Required="true" Mask="false"/>
+</Container>
