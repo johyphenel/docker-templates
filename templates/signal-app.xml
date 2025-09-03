@@ -4,7 +4,7 @@
 	<Beta>false</Beta>
     <Category>Other</Category>
     <Repository></Repository>
-    <Registry>https://github.com/johyphenel/docker-templates/pkgs/container/arch-emby</Registry>
+    <Registry>https://github.com/johyphenel/docker-templates/pkgs/container/signal-app</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
     <ExtraParams>--restart=always</ExtraParams>
@@ -15,9 +15,9 @@
     <Project>https://signal.org/</Project>
     <Overview>Signal web app.</Overview>
     <WebUI>http://[IP]:[PORT:8511]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/johyphenel/docker-templates/main/templates/signal.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/johyphenel/docker-templates/main/images/signal-icon.png</Icon>
-    <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
+    <TemplateURL>https://raw.githubusercontent.com/johyphenel/docker-templates/main/templates/signal-app.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/johyphenel/docker-templates/main/images/signal-app-icon.png</Icon>
+    <DonateText></DonateText>
     <DonateLink></DonateLink>
     <DonateImg></DonateImg>
     <Date>1970-01-01</Date>
