@@ -1,2 +1,1 @@
-# docker-templates
-Docker templates
+TODO: Instructions from https://github.com/binhex/docker-templates no longer work, "add repository" was removed from unraid: https://forums.unraid.net/topic/112170-allow-template-repositories-to-be-hosted-from-other-sources/#comment-1126265
